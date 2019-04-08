@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81E98AF4D143065BC52900DB /* libPods-LiMagicTutorial.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D0A5EDB1AC19880EF31C54 /* libPods-LiMagicTutorial.a */; };
 		94063E6C2243C70900883A09 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 94063E6B2243C70900883A09 /* libresolv.tbd */; };
 		942E62BD22520778007F59D2 /* AppDelegate+PushService.m in Sources */ = {isa = PBXBuildFile; fileRef = 942E62BC22520778007F59D2 /* AppDelegate+PushService.m */; };
 		94305166224B84C8003C99F7 /* TutorialTitleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 94305165224B84C8003C99F7 /* TutorialTitleTableViewCell.m */; };
@@ -136,7 +137,6 @@
 		FAFA006219D55070004A5FE8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAFA006119D55070004A5FE8 /* SystemConfiguration.framework */; };
 		FAFA006419D55075004A5FE8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAFA006319D55075004A5FE8 /* CFNetwork.framework */; };
 		FAFA006619D55079004A5FE8 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAFA006519D55079004A5FE8 /* MobileCoreServices.framework */; };
-		FCFF68334420AC32AE3B9784 /* libPods-LiMagicTutorial.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B62700E746E43C287B56C972 /* libPods-LiMagicTutorial.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -153,6 +153,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		15D0A5EDB1AC19880EF31C54 /* libPods-LiMagicTutorial.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LiMagicTutorial.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5158797A82EED07DC6E5FE3D /* Pods-LiMagicTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiMagicTutorial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiMagicTutorial/Pods-LiMagicTutorial.debug.xcconfig"; sourceTree = "<group>"; };
 		604E1AF199C449B6ED995E04 /* Pods-LiMagicTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiMagicTutorial.release.xcconfig"; path = "Pods/Target Support Files/Pods-LiMagicTutorial/Pods-LiMagicTutorial.release.xcconfig"; sourceTree = "<group>"; };
 		66BA81B81D28D80400D13914 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
@@ -212,7 +213,6 @@
 		94E621B7225341470003496B /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		94E621B922538F6C0003496B /* BaseViewController+Setup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BaseViewController+Setup.h"; sourceTree = "<group>"; };
 		94E621BA22538F6C0003496B /* BaseViewController+Setup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BaseViewController+Setup.m"; sourceTree = "<group>"; };
-		B62700E746E43C287B56C972 /* libPods-LiMagicTutorial.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LiMagicTutorial.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA1A41DB1CE97B5B002C0F49 /* KLCPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLCPopup.h; sourceTree = "<group>"; };
 		DA1A41DC1CE97B5B002C0F49 /* KLCPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLCPopup.m; sourceTree = "<group>"; };
 		DA1A41DE1CE99991002C0F49 /* close_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close_icon.png; sourceTree = "<group>"; };
@@ -395,7 +395,7 @@
 				FA2F273C19D5495F00873763 /* CoreGraphics.framework in Frameworks */,
 				FA2F273E19D5495F00873763 /* UIKit.framework in Frameworks */,
 				FA2F273A19D5495F00873763 /* Foundation.framework in Frameworks */,
-				FCFF68334420AC32AE3B9784 /* libPods-LiMagicTutorial.a in Frameworks */,
+				81E98AF4D143065BC52900DB /* libPods-LiMagicTutorial.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -607,7 +607,7 @@
 				FA2F273919D5495F00873763 /* Foundation.framework */,
 				FA2F273B19D5495F00873763 /* CoreGraphics.framework */,
 				FA2F273D19D5495F00873763 /* UIKit.framework */,
-				B62700E746E43C287B56C972 /* libPods-LiMagicTutorial.a */,
+				15D0A5EDB1AC19880EF31C54 /* libPods-LiMagicTutorial.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1088,11 +1088,7 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-			);
-			outputFileListPaths = (
 			);
 			outputPaths = (
 			);
